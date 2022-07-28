@@ -1,0 +1,31 @@
+.search {
+    color: white;
+}
+.container {
+    display: flex;
+}
+.search-input {
+    right: -100%;
+    display: flex;
+    transition: 200ms;
+    margin-right: -10px;
+    position: fixed;
+    border: 0;
+    background-color: black;
+    width: 88%;
+
+}
+.search-input.active {
+    right: 15%;
+    top: 0;
+    margin-top: 0;
+    transition: 200ms;
+    position: fixed;
+    height: 70px;
+    border: 0;
+    width: 88% ;
+    background-color: black;
+    color: #fff;
+    font-size: 24px;
+}
+
