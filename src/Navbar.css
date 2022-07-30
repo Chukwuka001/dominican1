@@ -3,6 +3,9 @@
     font-size: 2rem;
     background: nome;
 }
+.navbar {
+    margin-bottom: 30px;
+}
 nav {
 left: 0;
   position: fixed;
@@ -85,9 +88,9 @@ img {
 }
 .content-e a{
     text-decoration: none;
+    
 }
 
-.content {
-    display: flex;
-    top: 10em;
+.content-e:first-child{
+    margin-top: 16%;
 }

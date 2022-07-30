@@ -10,16 +10,18 @@ import Content from './Content';
 
 
 class App extends React.Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props);
         this.state = {
             hymns: hymns,
             searchfield: ''
         }
-    }
-     
-    render() {
+    }  
+    
+ 
 
+    render() {
+    
   return (
     <>
       <Router>
@@ -28,7 +30,7 @@ class App extends React.Component {
       <Route path='/' exact component={Content}/>
       </Routes>
       <Scroll>
-      <HymnList hymns={this.state.hymns}/>
+      <HymnList hymns={hymns}/>
       </Scroll>
       <Routes>
       <Route path='/:id' component={hymnpage}/>
@@ -36,9 +38,10 @@ class App extends React.Component {
       </Router>
     </>
   );
+ }
 }
     
-}  
+ 
                                  
 export default App;
 

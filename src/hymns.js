@@ -1,8 +1,5 @@
 export const hymns = [
-    {
-        id: 1,
-        tittle: 'space problem...'
-    },
+
   {
   id: 1,     
   tittle: 'BEHOLD A VIRGIN',

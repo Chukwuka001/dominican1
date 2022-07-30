@@ -8,10 +8,11 @@ import './Navbar.css';
 import Logo from './Images/logo.jpg';
 import SearchBox from './SearchBox';
 
-const Nav = () => {
-    const [sidebar, setSidebar] = useState(false);
+const Nav = () =>  {
+   const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
-
+   
+   
   return (
       <div>
       <nav className='navbar'>
@@ -39,11 +40,12 @@ const Nav = () => {
           </ul>            
       </div>
         <h2>DOMINICAN HYMNS</h2>
-        <SearchBox />
+        <SearchBox/>
       </nav>
       </div>
 
-    );    
+    );   
+ 
 }
 
 
